@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042350872684E7E500EB3888 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042350862684E7E500EB3888 /* DetailsViewController.m */; };
 		04EE2C112684D8170048F598 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE2C102684D8170048F598 /* AppDelegate.m */; };
 		04EE2C142684D8170048F598 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE2C132684D8170048F598 /* SceneDelegate.m */; };
 		04EE2C1A2684D8170048F598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EE2C182684D8170048F598 /* Main.storyboard */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042350852684E7E500EB3888 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		042350862684E7E500EB3888 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		04EE2C0C2684D8170048F598 /* Tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tumblr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EE2C0F2684D8170048F598 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04EE2C102684D8170048F598 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -162,6 +165,8 @@
 			children = (
 				04EE2C452684D8D40048F598 /* PhotosViewController.h */,
 				04EE2C462684D8D40048F598 /* PhotosViewController.m */,
+				042350852684E7E500EB3888 /* DetailsViewController.h */,
+				042350862684E7E500EB3888 /* DetailsViewController.m */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -438,6 +443,7 @@
 				04EE2C112684D8170048F598 /* AppDelegate.m in Sources */,
 				04EE2C4B2684DD600048F598 /* PhotoCell.m in Sources */,
 				04EE2C472684D8D40048F598 /* PhotosViewController.m in Sources */,
+				042350872684E7E500EB3888 /* DetailsViewController.m in Sources */,
 				04EE2C222684D8180048F598 /* main.m in Sources */,
 				04EE2C142684D8170048F598 /* SceneDelegate.m in Sources */,
 			);
